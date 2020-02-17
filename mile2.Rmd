@@ -1,0 +1,29 @@
+---
+title: "Milestone 2"
+author: "Alexandra Norris"
+date: "2/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(fs)
+
+```
+This data is from Duflo, Esther; Hanna, Rema, 2007, "Monitoring Works: Getting Teachers to Come to School", https://doi.org/10.7910/DVN/LRDXHX, Harvard Dataverse, V3, UNF:3:x1SrSiS2JvZWUUnaLJCGhA== [fileUNF]
+
+This is the data that I want to use but I am really struggling to figure out how to download things.
+
+
+The link to my repo is: https://github.com/asnorris/milestone2
+```{r}
+
+data <- read_csv("midtest.csv")
+
+summary(data)
+
+```
+
+
+
